@@ -1,0 +1,120 @@
+.contact{
+    background: url('../images/contact1.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    
+    
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    margin-top: 1px;
+
+}
+
+.contact_wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+   
+    padding:3rem;
+}
+
+.contact_label{
+    font-size: 20px;
+    padding:2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.contact_input{
+    height: 30px;
+    margin: 5px;
+    padding-left: 30px;
+    margin-left: 100px;
+    border-radius: 5px;
+   
+    outline: none;
+    z-index: 1;
+    border: none;
+    box-shadow: 2px 2px 2px 2px;
+    
+}
+
+.contact_desc{
+
+    height: 80px;
+    margin: 5px;
+    padding-left: 40px;
+    margin-left: 28px;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+   
+    outline: none;
+    z-index: 1;
+    border: none;
+    box-shadow: 2px 2px 2px 2px;
+
+}
+
+.contact_labeldesc{
+
+    font-size: 20px;
+    padding:2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.contact_title{
+    margin:2rem;
+    font-size: 35px;
+    
+
+}
+
+.contact_button{
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s ease;
+    margin-left: 135px;
+    margin-top: 25px;
+    padding:1rem 2rem;
+
+}
+
+@media screen and (max-width:300px){
+
+    .contact_wrapper{
+        padding:1px;
+        margin:1px;
+    }
+
+    .contact_button{
+        margin-left: 1px;
+    }
+
+    .contact_input{
+        margin-left: 1px;
+        padding-left: 1px;
+    }
+
+    .contact_label{
+        margin-left: 1px;
+        padding-left: 1px;
+    }
+
+    .contact_title{
+        margin-left: 1px ;
+        
+    }
+}
